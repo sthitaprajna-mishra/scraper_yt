@@ -1,12 +1,12 @@
-# Scrape YouTube comments
+# Scraper YouTube comments
 
-```scrape_yt``` is a package which allows the user to scrape comments off of YouTube videos with ease.
+```scraper_yt``` is a package which allows the user to scrape comments off of YouTube videos with ease.
 
 - Free software: MIT license
 
 ## Installation
 
-```pip install scrape_yt``` 
+```pip install scraper_yt``` 
 
 ## Changelog
 
