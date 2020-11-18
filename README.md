@@ -1,4 +1,4 @@
-# Scraper YouTube comments
+# Scrape YouTube comments
 
 ```scraper_yt``` is a package which allows the user to scrape comments off of YouTube videos with ease.
 
