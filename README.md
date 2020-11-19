@@ -20,7 +20,7 @@ from scraper_yt import CommentsScraper
 PATH = r"C:\Program Files (x86)\chromedriver.exe"
 ```
 
-#####The link of the YouTube video whose comments you want to scrape
+##### The link of the YouTube video whose comments you want to scrape
 ```
 vid = "https://www.youtube.com/watch?v=HFtJbRKuwtI&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=28"
 ```
@@ -30,8 +30,8 @@ vid = "https://www.youtube.com/watch?v=HFtJbRKuwtI&list=PLLssT5z_DsK-h9vYZkQkYNW
 num = 15
 ```
 
-##### Create an instance of CommentsScraper and pass the PATH variable into it 
-##### Call the commentsTpDataFrame() method and pass in the vid and num variables 
+##### Create an instance of ```CommentsScraper``` and pass the ```PATH``` variable into it 
+##### Call the ```commentsTpDataFrame()``` method and pass in the ```vid``` and ```num``` variables 
 ```
 df = CommentsScraper(PATH).commentsToDataFrame(vid, num)
 print(df)
